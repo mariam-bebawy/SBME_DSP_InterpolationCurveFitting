@@ -32,8 +32,8 @@ class MainWindow(QtWidgets.QMainWindow):
         super(MainWindow, self).__init__(*args, **kwargs)
 
 
-        #Add your path before the backslash
-        uic.loadUi(r'\Finalfinal_1.ui', self)
+        # Add your path before the backslash
+        uic.loadUi(r'./final.ui', self)
 
         # Button connections
         self.openButton.clicked.connect(lambda: self.load())
